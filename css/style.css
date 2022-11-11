@@ -19,25 +19,25 @@ body{
 #indexbody{
     background-image: url('../images/bg.png');
     background-repeat: round;
-    max-width: auto;
+    max-width: 100%;
 }
 
 #nationsbody{
     background-image: url('../images/bg 3.png');
     background-repeat: no-repeat;
-    max-width: auto;
+    max-width: 100%;
 }
 
 #charactersbody{
     background-image: url('../images/bg copy.png');
     background-repeat: no-repeat;
-    max-width: auto;
+    max-width: 100%;
 }
 
 #visionsbody{
     background-image: url('../images/bg 2.png');
     background-repeat: no-repeat;
-    max-width: auto;
+    max-width: 100%;
 }
 
 header{

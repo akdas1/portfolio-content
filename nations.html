@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="images/genshin_favicon.jpeg">
+    <link rel="icon" href="images/genshin_favicon.png">
     <link rel="stylesheet" href="css/html5reset.css">
 	<link rel="stylesheet" href="css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -16,6 +16,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/be44ef4246.js" crossorigin="anonymous"></script>
     <title>Current Nations</title>
     <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-W1KFFZ6XNZ"></script>
@@ -30,6 +31,7 @@
 <body id='nationsbody'>
     <div class="skip"><a href="#main">Skip to Main Content</a></div>
     <header>
+        <i id="map" class="fa-solid fa-map"></i>
         <nav>
             <ul class="nav_link">
 		<li><a href="index.html">home</a></li>
@@ -41,11 +43,14 @@
     </header>
     <main id="main">
         <div id="nations_grid">
-        <h1> The Nations of Tevyat</h1>
+        <div class="captions">
+        <h1 class="nation"> The Nations of Tevyat</h1>
         <p> The following are the current nations in Genshin Impact
             and are numbered by the release and/or placement in
             storyline adventure. The other nations listed are
             future nations. </p>
+        </div>
+        <div class="captions">
         <div class="aside_container">
         <ul class="current_nations">
             <li>Mondstadt</li>
@@ -61,7 +66,9 @@
         </ul>
         </aside>
         </div>
+        </div>
         <h2>Mondstadt</h2>
+        <div class="captions">
         <img src="images/mondstadt.png" alt="Image of Mondstadt, a walled small nation filled with with windmills.">
         <p> Out of seven nations (4 currently released), Mondstadt
             is the first nation we enter as the traveler, looking
@@ -89,8 +96,55 @@
             the Liyue region are the Chasm, Qingce village,
             Wangshu Inn, etc. The Chasm was released in the
             version 2.7 update and features an underground map!</p>
-        <h3>Inazuma and Sumeru</h3>
+        <h3>Inazuma</h3>
+        <img src="images/inazuma.png" alt="Image of Inazuma City, a city where the shogun ran, and has a statue of the electro archon.">
+        <p> Inazuma is the third nation to be introduced, and the
+            first nation to be added after the initial release.
+            (Mondstadt and Liyue were released on launch). It is an
+            island nation inspired by Japan, and to even get to here,
+            we had to complete a quest to travel here due to the
+            heavy storms of the seas surrounding Inazuma. The
+            conflicts focused on the shogun, implemented the vision
+            hunt decree to capture visions from users for the purpose
+            of eternity. Here, we also meet characters like Raiden,
+            Yae Miko, Thoma, Ayaka, Kazuha (during our travel), and
+            more. Some areas within Inazuma are Narukami Island,
+            Watatsumi Island, Seirai Island, etc. Some special
+            regions within Inazuma are Enkanomiya, released in
+            version 2.4, an underground ancient civilization.</p>
+        <h3>Sumeru</h3>
+        <img src="images/sumeru.jpeg" alt="Image of Sumeru, a city where the academia and wisdom are the main goals.">
+        <p>
+            Sumeru is fourth and most recent nation to be added.
+            The region is also inspired by Middle Eastern and
+            South Asian regions. It's practices focuses on the
+            Academia, a scholarly organiation within Sumeru City.
+            Here, we meet Nahida, the archon of wisdom, Cyno,
+            Al Haitham, Nilou, Dehya, and more. Some areas of
+            Sumeru are Port Ormos, Avidya Forest, the desert,
+            Vanarana, and Old Vanarana. More updates are to come.
+        </p>
         <p>Information regarding these nations will be updated.</p>
+        <h3>Special Regions</h3>
+        </div>
+        <div class="captions">
+        <div id="special">
+        <figure>
+        <img src="images/chasm.gif" alt="Gif of The Chasm, an underground region of Liyue.">
+        <figcaption >The Chasm, the over and underground mines of Liyue.</figcaption>
+        </figure>
+        <figure>
+        <img src="images/enkan.gif" alt="Gif of Enkanomiya, a place under Inazuma with mysterious storylines.">
+        <figcaption >Enkanomiya, the hidden world under Inazuma.</figcaption>
+        </figure>
+        </div>
+        </div>
+        <p id="specialinfo"> There are other regions like Dragonspine,
+            the Desert in Sumeru, and the Golden Apple Archipelago
+            (summer event), but I wanted to show current regions
+            with separate maps from the main map of Tevyat. Other
+            regions are still great!</p>
+        <i id="alert" class="fa-solid fa-circle-exclamation"></i>
         </div>
     </main>
 </body>

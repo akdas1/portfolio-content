@@ -4,9 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="images/genshin_favicon.jpeg">
+    <link rel="icon" href="images/genshin_favicon.png">
     <link rel="stylesheet" href="css/html5reset.css">
-	<link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
@@ -16,6 +16,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/be44ef4246.js" crossorigin="anonymous"></script>
     <title>More Characters</title>
     <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-W1KFFZ6XNZ"></script>
@@ -30,6 +31,7 @@
 <body id='charactersbody'>
     <div class="skip"><a href="#main">Skip to Main Content</a></div>
     <header>
+        <i id="person" class="fa-solid fa-person"></i>
         <nav>
             <ul class="nav_link">
 		<li><a href="index.html">home</a></li>
@@ -40,43 +42,88 @@
         </nav>
     </header>
     <main id="main">
-        <h1>Current Archons</h1>
+        <h1 class="archon">Current Archons</h1>
+
+        <div class="captions">
         <div class="gallery">
-        <img src="images/venti.png" alt="Image of Venti">
-        <p> This is Venti, the current archon residing over Mondstadt.
-            He is the god of freedom and the symbol of anemo.</p>
-        <img src="images/zhongli.png" alt="Image of Zhongli">
-        <p> This is Zhongli, the current archon residing over Liyue.
-            He is the god of contracts and the symbol of geo.</p>
-        <img src="images/raiden.jpg" alt="Image of Raiden">
-        <p> This is Raiden Ei, which can also be seen as the Raiden Shogun
-            (her puppet she made to look identical to her). She is the current
-            archon residing over Inazuma. She is the god of eternity and the
-            sympol of electro.</p>
-        <img src="images/kusanali.jpeg" alt="Image of Kusanali">
-        <p> This is Kusanali, the current archon residing over Sumeru, upon
+        <figure>
+        <img class="galleryimage" src="images/venti.png" alt="Image of Venti">
+        <figcaption> This is Venti, the current archon residing over Mondstadt.
+            He is the god of freedom and the symbol of anemo.</figcaption>
+        </figure>
+        <figure>
+        <img class="galleryimage" src="images/zhongli.png" alt="Image of Zhongli">
+        <figcaption> This is Zhongli, the current archon residing over Liyue.
+            He is the god of contracts and the symbol of geo.</figcaption>
+        </figure>
+        <figure>
+        <img class="galleryimage" src="images/raiden.jpg" alt="Image of Raiden">
+        <figcaption> This is Raiden Ei, which can also be seen as the Raiden Shogun
+            (her identical puppet). She is the current archon residing
+            over Inazuma. She is the god of eternity and the sympol of electro.
+        </figcaption>
+        </figure>
+        <figure>
+        <img class="galleryimage" src="images/kusanali.jpeg" alt="Image of Kusanali">
+        <figcaption> This is Kusanali, the current archon residing over Sumeru, upon
             the latest update. She is the god of wisdom and the symbol of
-            dendro. She is also the youngest archon.</p>
-        <p> It's important to note that this game is a continuous story based on
-            updates. The remaining nations have not been released yet.</p>
+            dendro. She is also the youngest archon.</figcaption>
+        </figure>
+        </div>
+
+        <p id="info"> It's important to note that this game is a continuous story based on
+            updates. The remaining archons and nations have not been released yet.</p>
+
+
         <h2>Some Characters I Like</h2>
-        <img src="images/kaedehara_kazuha.png" alt="Image of Kaedehara Kazuha">
-        <p> Above is an image of Kazuha, my personal favorite to play with.
-            He is an anemo sword user that fled from Inazuma.</p>
-        <img src="images/yae_miko.png" alt="Image of Yae Miko">
-        <p> Above is Yae Miko, she is an electro catalyst user (a catalyst
+
+        <div class="gallery">
+        <figure>
+        <img class="galleryimage" src="images/kaedehara_kazuha.png" alt="Image of Kaedehara Kazuha">
+        <figcaption> Above is an image of Kazuha, my personal favorite to play with.
+            He is an anemo sword user that fled from Inazuma.</figcaption>
+        </figure>
+        <figure>
+        <img class="galleryimage" src="images/yae_miko.png" alt="Image of Yae Miko">
+        <figcaption> Above is Yae Miko, she is an electro catalyst user (a catalyst
             is a book that creates elemental reactions). She is a powerful
-            figure in Inazuma. </p>
-        <img src="images/xiao.png" alt="Image of Xiao">
-        <p> Above is Xiao, a yaksha (spirit) from Liyue. He served in
-            countless battles and remains the last of his comrades.</p>
-        <img src="images/albedo.png" alt="Image of Albedo">
-        <p>Above is Albedo, an alchemist from Mondstadt. He is highley
-            intelligent and if I explain further, it would be spoilers.</p>
+            figure in Inazuma. </figcaption>
+        </figure>
+        <figure>
+        <img class="galleryimage" src="images/xiao.png" alt="Image of Xiao">
+        <figcaption> Above is Xiao, a yaksha (spirit) from Liyue. He served in
+            countless battles and remains the last of his comrades.</figcaption>
+        </figure>
+        <figure>
+        <img class="galleryimage" src="images/albedo.png" alt="Image of Albedo">
+        <figcaption>Above is Albedo, an alchemist from Mondstadt. He is highley
+            intelligent and if I explain further, it would be spoilers.</figcaption>
+        </figure>
+        </div>
+        </div>
+
+        <div id="kazuha">
+        <h3>Video of Kazuha Kaedehara</h3>
+		<div class="controls">
+		<button id="play">Play Video</button>
+		<button id="pause">Pause Video</button>
+		</div>
+        <figure>
+            <video class="video"
+                autoplay="true"
+                id="videoplayer"
+                preload="none"
+                src="videos/kazuha.mp4">
+            </video>
+            <figcaption id="story">Short excerpt taken from Kazuha's
+                character demo. All copyright belongs to Cognosphere.
+                There is also no sound.</figcaption>
+        </figure>
         </div>
     </main>
-<footer>
+<footer id="charactersfooter">
     <p class="footer">Website made for a school project (SI539).</p>
 </footer>
+<script src="js/genshin.js"></script>
 </body>
 </html>
